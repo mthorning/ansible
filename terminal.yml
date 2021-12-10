@@ -21,6 +21,7 @@
         - stow
         - git
         - build-essential
+        - python3-pip
   tasks: 
     - include: tasks/ssh.yml
     - include: tasks/git.yml
